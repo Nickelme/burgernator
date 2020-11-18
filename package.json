@@ -1,0 +1,16 @@
+{
+    "name": "bugertime",
+    "version": "0.0.1",
+    "description": "BUGER TIME",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^3.0.0",
+        "mysql": "^2.18.1"
+    }
+}

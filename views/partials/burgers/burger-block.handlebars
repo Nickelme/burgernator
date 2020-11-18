@@ -1,0 +1,11 @@
+<li class="list-group-item">
+    {{name}}
+
+    {{#if devoured}}
+    <div class="text-right">
+        <button class="devour-btn btn btn-primary" data-id="{{id}}">
+            EAT THE BURGER
+        </button>
+    </div>
+    {{/if}}
+</li>
